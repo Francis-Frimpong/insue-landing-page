@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.navLinks-icon {
+    display: flex;
+    align-items: center;
+}
+
+.desktopLinks {
+   padding-right: 30px;
+   display: none;
+}
+
