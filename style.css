@@ -26,10 +26,10 @@ body {
 }
 
 .openDrawer {
-    transform: translateX(-400px);
+    transform: translateX(-600px);
 }
 
-.mobileLinks {
+.mobileLinks  {
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -64,4 +64,14 @@ body {
     text-transform: uppercase;
     padding-bottom: 70px;
 }
+
+.close {
+    display: none;
+}
+
+.mobile-border {
+    border: 1px solid white;
+}
+
+
 
