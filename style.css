@@ -69,9 +69,38 @@ body {
     display: none;
 }
 
+
+
 .mobile-border {
     border: 1px solid white;
 }
 
 
+.responsive-img {
+    width: 100%;
+    
+}
 
+.cta-card {
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    height: 70vh;
+    position: relative;
+}
+
+.cta-card::before {
+    content: url('images/bg-pattern-intro-left-mobile.svg'); /* Image path */
+    position: absolute;
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 80px; /* Control the size */
+    height: auto;
+}
+.cta-card::after {
+    content: url('images/bg-pattern-intro-right-mobile.svg'); /* Image path */
+    position: absolute;
+    bottom: 0; /* Align to the top */
+    right: 1; /* Align to the left */
+    width: 80px; /* Control the size */
+    height: auto;
+}
