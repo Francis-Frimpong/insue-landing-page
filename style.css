@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: "DM Serif Display", serif;
     
+    
 }
 
 .navContainer {
@@ -12,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    /* position: sticky;
+    /* position: fixed;
     z-index: 2; */
     background-color: #fff;
 
@@ -149,9 +150,97 @@ body {
 }
 
 .line{
-    width: 200px;
+    width: 180px;
     height: 2px;
     background-color: hsl(274, 6%, 77%);
     margin: 0 auto;
-    margin-top: 240px;
+    margin-top: 250px;
+}
+
+.qualities h2{
+    text-align: center;
+    font-size: 4rem;
+    color: hsl(256, 26%, 20%);
+    margin-top: 25px;
+}
+
+.grid-container{
+    display: grid;
+    width: 100%;
+    height: inherit;
+    grid-template-areas: 
+        "snappy"
+        "prices"
+        "people";
+    margin-top: 80px;
+} 
+.card{
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#snappy{
+    grid-area: snappy;
+}
+
+#snappy h3{
+    font-size: 1.7rem;
+    color: hsl(256, 26%, 20%);
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+#snappy p{
+    color: hsl(273, 4%, 51%);
+    width: 56%;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+#prices{
+    grid-area: prices;
+    margin-top: 40px;
+}
+
+#prices h3{
+    font-size: 1.7rem;
+    color: hsl(256, 26%, 20%);
+    padding-top: 20px;
+    margin-bottom: 0;
+
+
+}
+
+#prices p{
+    color: hsl(273, 4%, 51%);
+    width: 56%;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+#people{
+    grid-area: people;
+    margin-top: 40px;
+}
+
+#people h3{
+    font-size: 2rem;
+    color: hsl(256, 26%, 20%);
+    padding-top: 20px;
+    margin-bottom: 0;
+
+}
+
+#people p{
+    color: hsl(273, 4%, 51%);
+    width: 56%;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+.cta-2 div{
+    background-color: hsl(256, 26%, 20%);
 }
