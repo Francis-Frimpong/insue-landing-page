@@ -242,5 +242,17 @@ body {
 }
 
 .cta-2 div{
+    position: relative;
     background-color: hsl(256, 26%, 20%);
+}
+
+.cta-2 div h3{
+    font-size: 3rem;
+    color: white;
+}
+.cta-2 div img{
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 0;
 }
