@@ -2,6 +2,9 @@ body {
     background-color: #fff;
     position: relative;
     margin: 0;
+    padding: 0;
+    font-family: "DM Serif Display", serif;
+    
 }
 
 .navContainer {
@@ -9,8 +12,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    position: sticky;
-    z-index: 2;
+    /* position: sticky;
+    z-index: 2; */
     background-color: #fff;
 
     
@@ -80,27 +83,75 @@ body {
     width: 100%;
     
 }
+.cta{
+    margin-top: -5px;
+}
 
 .cta-card {
     width: 100%;
     background-color: hsl(256, 26%, 20%);
-    height: 70vh;
+    height: 83vh;
     position: relative;
+    z-index: 0;
 }
 
-.cta-card::before {
-    content: url('images/bg-pattern-intro-left-mobile.svg'); /* Image path */
+.pattern-right{
     position: absolute;
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    width: 80px; /* Control the size */
-    height: auto;
+    right: 2px;
+    top: 414px;
+    width: 37%;
+
 }
-.cta-card::after {
-    content: url('images/bg-pattern-intro-right-mobile.svg'); /* Image path */
+.pattern-left{
     position: absolute;
-    bottom: 0; /* Align to the top */
-    right: 1; /* Align to the left */
-    width: 80px; /* Control the size */
-    height: auto;
+    left: 2px;
+    width: 50%;
+    
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    
+    z-index: 1;
+}
+
+.cta-text h1 {
+    font-size: 3rem;
+    color: white;
+    width: 65%;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.cta-text p{
+    color: hsl(274, 6%, 77%);
+    width: 60%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0;
+
+}
+
+.cta a{
+    text-decoration: none;
+    color: hsl(274, 6%, 77%);
+    text-transform: uppercase;
+    border: 2px solid hsl(274, 6%, 77%);
+    letter-spacing: 4px;
+    padding: 10px 20px;
+    margin-top: 35px;
+}
+
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: hsl(274, 6%, 77%);
+    margin: 0 auto;
+    margin-top: 240px;
 }
