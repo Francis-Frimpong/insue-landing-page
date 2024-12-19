@@ -291,6 +291,42 @@ body {
 
 .footer-nav img{
     width: 100%;
+    
+}
+
+.logo-socials .footer-logo{
+    width: 160px;
+}
+
+
+.logo-socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 0;
+    top: 133px;
+    left: 0;
+    right: 0;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.socials img{
+    width: 40px;
+    margin: 37px 20px;
+ 
+}
+
+
+.footer-line{
+    width: 500px;
+    height: 2px;
+    background-color: hsl(274, 6%, 77%);
+    margin: 0 auto;
+    margin-top: 70px;
 }
