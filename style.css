@@ -420,7 +420,25 @@ body {
      }
 
     .navContainer{
-        justify-content: space-around;
+        padding: 30px 150px;
+    }
+
+    .container{
+        position: relative;
+    }
+
+    .responsive-img {
+        width: 500px;
+        height: 600px;
+        position: absolute;
+        z-index: 1;
+        display: none;
+    }
+
+    .cta-text {
+        align-items: start;
+        display: flex;
+        flex-direction: column;
     }
      
      
