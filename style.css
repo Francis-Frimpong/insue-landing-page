@@ -132,10 +132,12 @@ body {
 
 .cta-text p{
     color: hsl(274, 6%, 77%);
-    width: 60%;
+    width: 63%;
     text-align: center;
     font-size: 1.1rem;
     margin-top: 0;
+    font-family: "Karla", serif;
+
 
 }
 
@@ -147,6 +149,9 @@ body {
     letter-spacing: 4px;
     padding: 10px 20px;
     margin-top: 35px;
+    font-family: "Karla", serif;
+    font-weight: 800;
+
 }
 
 .line{
@@ -195,9 +200,13 @@ body {
 
 #snappy p{
     color: hsl(273, 4%, 51%);
-    width: 56%;
+    width: 63%;
+    font-size: 1.1rem;
     padding-top: 25px;
     margin-top: 0;
+    font-family: "Karla", serif;
+    line-height: 30px;
+
 }
 
 #prices{
@@ -216,9 +225,15 @@ body {
 
 #prices p{
     color: hsl(273, 4%, 51%);
-    width: 56%;
+    width: 60%;
     padding-top: 25px;
     margin-top: 0;
+    font-family: "Karla", serif;
+    line-height: 30px;
+    font-size: 1.1rem;
+
+
+
 }
 
 #people{
@@ -236,9 +251,13 @@ body {
 
 #people p{
     color: hsl(273, 4%, 51%);
-    width: 56%;
+    width: 63%;
     padding-top: 25px;
     margin-top: 0;
+    font-family: "Karla", serif;
+    line-height: 30px;
+    font-size: 1.1rem;
+
 }
 
 .cta-2{
@@ -279,6 +298,9 @@ body {
     letter-spacing: 4px;
     padding: 10px 20px;
     margin: 25px 0 80px 0;
+    font-family: "Karla", serif;
+    font-weight: 800;
+
 }
 
 
@@ -363,4 +385,23 @@ body {
     text-decoration: none;
 
 
+}
+
+
+@media only screen and (min-width:1200px){
+
+    .mobile-icons{
+        display: none;
+    }    
+    
+    .mobileLinks, .hamburger{
+        display: none;
+    }
+    
+    .desktopLinks {
+        display: block;
+     }
+
+     
+     
 }
