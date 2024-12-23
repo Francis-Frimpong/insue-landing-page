@@ -162,11 +162,12 @@ body {
     margin-top: 250px;
 }
 .cta-line{
-    width: 150px;
+    width: 120px;
     height: 2px;
     background-color: hsl(274, 6%, 77%);
     /* margin: 0 auto; */
     margin-top: 100px;
+    display: none;
 }
 
 .qualities h2{
@@ -435,17 +436,20 @@ body {
     }
 
     .responsive-img {
-        width: 500px;
-        height: 600px;
+        width: 650px;
+        height: 900px;
         position: absolute;
+        left: 50%;
+        top: 2.5%;
         z-index: 1;
-        display: none;
+
     }
 
     .cta-text {
         align-items: start;
         display: flex;
         flex-direction: column;
+        left: 155px;
     }
 
     .pattern-right{
@@ -457,10 +461,51 @@ body {
     }
     .pattern-left{
         /* position: absolute; */
-        top:536px;
+        top:466px;
         left: 0px;
-        width: 10%;
+        width: 15%;
         
+    }
+
+    .cta-line{
+        display: block;
+    }
+
+    .cta-text{
+        /* display: flex;
+        flex-direction: column; */
+        justify-content: start;
+        align-items: start;
+        /* position: absolute; */
+        top: 0;
+        
+        z-index: 1;
+    }
+    
+    .cta-text h1 {
+        font-size: 3.7rem;
+        width: 30%;
+        text-align: start;
+        margin-top: 30px;
+        margin-bottom: 0;
+    
+    
+    }
+    
+    .cta-text p{
+        width: 43%;
+        text-align: start;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        line-height: 30px;
+    
+    }
+    
+    .cta a{
+        margin-top: 20px;
+        letter-spacing: 2px;
+       
+    
     }
      
      
