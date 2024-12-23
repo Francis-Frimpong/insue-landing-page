@@ -161,6 +161,13 @@ body {
     margin: 0 auto;
     margin-top: 250px;
 }
+.cta-line{
+    width: 150px;
+    height: 2px;
+    background-color: hsl(274, 6%, 77%);
+    /* margin: 0 auto; */
+    margin-top: 100px;
+}
 
 .qualities h2{
     text-align: center;
@@ -439,6 +446,21 @@ body {
         align-items: start;
         display: flex;
         flex-direction: column;
+    }
+
+    .pattern-right{
+        /* position: absolute; */
+        right: 2px;
+        top: 414px;
+        width: 37%;
+    
+    }
+    .pattern-left{
+        /* position: absolute; */
+        top:536px;
+        left: 0px;
+        width: 10%;
+        
     }
      
      
