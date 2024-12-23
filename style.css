@@ -402,6 +402,26 @@ body {
         display: block;
      }
 
+     .desktopLinks a{
+        text-decoration: none;
+        padding-right: 15px;
+        text-transform: uppercase;
+        color: hsl(273, 4%, 51%);
+        font-family: "Karla", serif;
+        font-weight: 600;
+     }
+
+     .desktopLinks .special-border{
+        border: 2px solid hsl(256, 26%, 20%);
+        color: hsl(256, 26%, 20%);
+        padding: 10px 20px;
+        font-family: "Karla", serif;
+        
+     }
+
+    .navContainer{
+        justify-content: space-around;
+    }
      
      
 }
