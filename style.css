@@ -436,11 +436,11 @@ body {
     }
 
     .responsive-img {
-        width: 650px;
-        height: 900px;
+        width: 600px;
+        height: 750px;
         position: absolute;
         left: 50%;
-        top: 2.5%;
+        top: 2%;
         z-index: 1;
 
     }
@@ -453,11 +453,11 @@ body {
     }
 
     .pattern-right{
-        /* position: absolute; */
-        right: 2px;
-        top: 414px;
-        width: 37%;
-    
+        position: absolute;
+        right: 0;
+        top: 1px;
+        width: 26%;
+        z-index: 2;
     }
     .pattern-left{
         /* position: absolute; */
@@ -488,8 +488,6 @@ body {
         text-align: start;
         margin-top: 30px;
         margin-bottom: 0;
-    
-    
     }
     
     .cta-text p{
@@ -504,9 +502,51 @@ body {
     .cta a{
         margin-top: 20px;
         letter-spacing: 2px;
-       
-    
     }
      
      
+    .qualities {
+        margin-top: 350px;
+    }
+
+    .qualities .line{
+        margin-left: 170px;
+    }
+
+    .qualities h2{
+        text-align: start;
+        margin-left: 170px;
+    }
+
+    .grid-container{
+        width: 86%;
+        grid-template-areas: 
+            "snappy prices people";
+
+        margin-left: 168px;
+        
+    }
+    
+    .card{
+        text-align: start;
+        align-items: start;
+  
+    }
+    
+
+    #snappy p{
+        width: 70%;
+
+
+    }
+
+    #prices p{
+        width: 70%;
+    }
+
+    #people p{
+        width: 75%;
+        font-size: 1rem;
+    }
+
 }
