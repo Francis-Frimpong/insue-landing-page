@@ -135,7 +135,12 @@
       <div>
         <h3>Find out more about how we work</h3>
         <a href="#">How we work</a>
-        <img src="images/bg-pattern-how-we-work-mobile.svg" alt="">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="images/bg-pattern-how-we-work-desktop.svg" >
+
+          <source media="(min-width: 576px)" srcset="images/bg-pattern-how-we-work-mobile.svg" >
+          <img src="images/bg-pattern-how-we-work-mobile.svg" alt="">
+        </picture>
       </div>
     </section>
 
