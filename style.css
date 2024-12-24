@@ -559,6 +559,11 @@ body {
         align-self: flex-start;
     }
 
+
+    .cta-2{
+        margin: 180px 20px 0 20px;
+
+    }
     .cta-2 div{
         flex-direction: row;
         
