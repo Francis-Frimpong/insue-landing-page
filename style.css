@@ -598,11 +598,12 @@ body {
     .logo-socials{
         flex-direction: row;
         justify-content: space-between;
-        margin: 0 7.5%;
+        margin: 0 12%;
     }
 
     .footer-line{
-        width: 84.6%;
+        width: 74%;
+        padding-left: 25px;
     }
 
     .footer-card {
