@@ -145,7 +145,13 @@
     </section>
 
     <footer class="footer-nav">
-      <img src="images/bg-pattern-footer-mobile.svg" alt="">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="images/bg-pattern-footer-desktop.svg">
+
+        <source media="(min-width: 576px)" srcset="images/bg-pattern-footer-mobile.svg">
+
+        <img src="images/bg-pattern-footer-mobile.svg" alt="">
+      </picture>
     <div class="logo-socials">
       <img src="images/logo.svg" alt="" class="footer-logo">
       <div class="socials">
@@ -183,7 +189,7 @@
         <a href="#"> Live chat</a>
         
       </div>
-      <div class="help">
+      <div class="others">
         <h3>Others</h3>
         <a href="#">Careers</a>
         <a href="#">Press</a>

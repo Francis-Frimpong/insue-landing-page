@@ -321,7 +321,6 @@ body {
 
 .footer-nav img{
     width: 100%;
-    
 }
 
 .logo-socials .footer-logo{
@@ -555,13 +554,13 @@ body {
     }
 
     #people p{
-        width: 78%;
+        width: 85%;
         align-self: flex-start;
     }
 
 
     .cta-2{
-        margin: 180px 20px 0 20px;
+        margin: 180px 150px 0 150px;
 
     }
     .cta-2 div{
@@ -570,14 +569,74 @@ body {
     }
 
     .cta-2 div h3{
-        width: 27.9%;
+        width: 33%;
         text-align: left;
-        left: 0;
+        left: -170px;
+        top: -30px;
+
     }
     .cta-2 div img{
-        width: 30.6%;
+        width: 37%;
+    }
+
+    .cta-2 div a{
+        position: relative;
+        left: 205px;
+        top: 8px;
+        z-index: 1;
+    }
+
+    .footer-nav{
+        margin-top: 12%;
+    }
+
+    .footer-nav img{
+        width: 40%;
+        
+    }
+
+    .logo-socials{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 7.5%;
+    }
+
+    .footer-line{
+        width: 84.6%;
+    }
+
+    .footer-card {
+        display: grid;
+        width: 80%;
+        height: inherit;
+        grid-template-areas:
+        
+        "company help contact others";
+        /* padding-bottom: 10%; */
+       
+    }
+
+    .company{
+        grid-area: company;
+    }
+
+    .help{
+        grid-area: help;
+    }
+
+    .contact{
+        grid-area: contact;
+        margin-top: -40px;
+
+    }
+
+    .others{
+        grid-area: others;
+        margin-top: -40px;
+
     }
 
 
+    
 
 }
