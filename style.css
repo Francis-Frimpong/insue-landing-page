@@ -599,11 +599,14 @@ body {
         flex-direction: row;
         justify-content: space-between;
         margin: 0 12%;
+        margin-top: -94px;
     }
 
     .footer-line{
         width: 74%;
         padding-left: 25px;
+        margin-top: -138px;
+
     }
 
     .footer-card {
@@ -613,7 +616,9 @@ body {
         grid-template-areas:
         
         "company help contact others";
-        /* padding-bottom: 10%; */
+        padding-bottom: 10%;
+        margin-left: 80px;
+        margin-top: 12px;
        
     }
 
